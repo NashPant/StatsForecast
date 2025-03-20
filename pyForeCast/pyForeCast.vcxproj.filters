@@ -57,6 +57,9 @@
     <ClInclude Include="StatsForeCast\span.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="StatsForeCast\nelder_mead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CoreForeCast\coreforecast.cpp">

@@ -43,7 +43,6 @@ PYBIND11_MODULE(pyForeCast, m) {
 	init_sc(m);
 	init_seas(m);
 	// StatsForecast
-
 	arima::init(m);
 	ets::init(m);
 	theta::init(m);

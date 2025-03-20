@@ -206,6 +206,7 @@
     <ClInclude Include="CoreForeCast\seasonal.h" />
     <ClInclude Include="CoreForeCast\stats.h" />
     <ClInclude Include="CoreForeCast\stl.hpp" />
+    <ClInclude Include="StatsForeCast\nelder_mead.h" />
     <ClInclude Include="StatsForeCast\span.hpp" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,20 @@
+# Object file
+*.o
+*.opendb
+*.dll
+*.exe
+*.so
+*.obj
+*.tlog
+
+
+# Ada Library Information
+*.db
+#ignore packages
+packages
+Win32/
+x64/
+TestReults/
+obj/
+.vs
+/abrvol(double f, double k, double atm, double tau, double beta, double rho, double vvol)
