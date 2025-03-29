@@ -93,15 +93,15 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>false</ConformanceMode>
-      <AdditionalIncludeDirectories>C:/Development/Nikopolis/ThirdParty/Eigen_3_4/eigen-master/;$(ProjectDir)/../SkipList;C:/Development/Nikopolis/ThirdParty/pybind11/include/;C:\Anaconda38\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/Development/Nikopolis/ThirdParty/Eigen_3_4/eigen-master/;$(ProjectDir)/../SkipList;C:/Development/Nikopolis/ThirdParty/pybind11/include/;$(PYTHON_INCLUDE)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalOptions>/bigobj /w15038</AdditionalOptions>
       <DisableSpecificWarnings>4244;4305;4068;4267;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>C:\Anaconda38\libs\;</AdditionalLibraryDirectories>
-      <AdditionalDependencies>python38.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYTHON_LIB_INCLUDE);</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(PYTHON_LIB);</AdditionalDependencies>
     </Link>
     <Lib>
       <AdditionalDependencies>python38.lib;</AdditionalDependencies>
@@ -168,7 +168,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>false</ConformanceMode>
-      <AdditionalIncludeDirectories>C:/Development/Nikopolis/ThirdParty/Eigen_3_4/eigen-master/;$(ProjectDir)/../SkipList;C:/Development/Nikopolis/ThirdParty/pybind11/include/;C:\Anaconda38\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/Development/Nikopolis/ThirdParty/Eigen_3_4/eigen-master/;$(ProjectDir)/../SkipList;C:/Development/Nikopolis/ThirdParty/pybind11/include/;$(PYTHON_INCLUDE)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalOptions>/bigobj /w15038</AdditionalOptions>
       <DisableSpecificWarnings>4244;4305;4068;4267;</DisableSpecificWarnings>
@@ -177,8 +177,8 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Anaconda38\libs\;</AdditionalLibraryDirectories>
-      <AdditionalDependencies>python38.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYTHON_LIB_INCLUDE);</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(PYTHON_LIB);</AdditionalDependencies>
     </Link>
     <Lib>
       <AdditionalDependencies>python38.lib;</AdditionalDependencies>
